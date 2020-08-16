@@ -6,10 +6,11 @@
   "author": "Hung Cung",
   "license": "MIT",
   "scripts": {
-    "start": "gulp browser-sync"
+    "serve": "gulp"
   },
   "devDependencies": {
     "browser-sync": "^2.26.12",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
   }
 }
