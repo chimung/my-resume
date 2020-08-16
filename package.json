@@ -1,0 +1,15 @@
+{
+  "name": "my-resume",
+  "version": "0.0.1",
+  "description": "My Resume",
+  "main": "index.js",
+  "author": "Hung Cung",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp browser-sync"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2"
+  }
+}
