@@ -1,4 +1,17 @@
-.title {
-  font-weight: 200;
-  color: black;
+@tailwind base;
+
+body {
+    @apply text-dark;
+}
+@tailwind components;
+
+@tailwind utilities;
+
+
+.image-avatar {
+    filter: grayscale(1) brightness(1.15);
+}
+
+.intro-section {
+    top: 20rem;
 }
